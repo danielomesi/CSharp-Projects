@@ -1,0 +1,6 @@
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Interfaces\bin\Debug\Ex04.Menus.Interfaces.dll
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Interfaces\bin\Debug\Ex04.Menus.Interfaces.pdb
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.AssemblyReference.cache
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.dll
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.pdb

@@ -1,0 +1,11 @@
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Test.exe
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Test.pdb
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Delegates.dll
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Interfaces.dll
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Delegates.pdb
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Interfaces.pdb
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.csproj.AssemblyReference.cache
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.csproj.CoreCompileInputs.cache
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.csproj.CopyComplete
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.exe
+C:\Users\omesi\Desktop\Menus System\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.pdb
