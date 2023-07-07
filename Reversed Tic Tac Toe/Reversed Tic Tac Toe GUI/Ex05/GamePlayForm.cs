@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Ex05
+namespace ReverseTicTacToe
 {
     public class GamePlayForm : Form
     {
@@ -13,7 +13,8 @@ namespace Ex05
         private const int k_SpaceBetweenTwoButtons = 6;
         private const int k_TopLeftButtonXAndY = 12;
         private const int k_LabelsLetterPixelSize = 8;
-        private const int k_LabelHeight = 20;
+        private const int k_LabelHeight = 30;
+        private const int k_ExtraSizeForLabel = 4;
         private const int k_FirstRow = 0;
         private const int k_FirstColumn = 0;
 
@@ -55,6 +56,7 @@ namespace Ex05
         {
             m_BoardButtons = new FrameButton[i_boardSize, i_boardSize];
             InitiateFormProperties();
+            addIcon();
             resizeWindow(i_boardSize);
             addButtons(i_boardSize);
             addScoresLabels(i_firstPlayerName, i_secondPlayerName);
@@ -151,14 +153,15 @@ namespace Ex05
             labelScorePlayer1 = new Label();
             labelScorePlayer1.Text = getlabelScorePlayerText(i_firstPlayerName, 0);
             labelScorePlayer1.Name = "labelScorePlayer1";
-            labelScorePlayer1.Size = new Size(k_LabelsLetterPixelSize * labelScorePlayer1.Text.Length, k_LabelHeight);
+            labelScorePlayer1.Size = new Size(k_LabelsLetterPixelSize * labelScorePlayer1.Text.Length + k_ExtraSizeForLabel, k_LabelHeight);
             labelScorePlayer1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, (byte)(177));
+           
 
             // labelScorePlayer2
             labelScorePlayer2 = new Label();
             labelScorePlayer2.Text = getlabelScorePlayerText(i_secondPlayerName, 0);
             labelScorePlayer2.Name = "labelScorePlayer2";
-            labelScorePlayer2.Size = new Size(k_LabelsLetterPixelSize * labelScorePlayer2.Text.Length, k_LabelHeight);
+            labelScorePlayer2.Size = new Size(k_LabelsLetterPixelSize * labelScorePlayer2.Text.Length + k_ExtraSizeForLabel, k_LabelHeight);
             labelScorePlayer2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, (byte)(177));
 
             // Location for the labels
@@ -198,6 +201,12 @@ namespace Ex05
                 labelScorePlayer2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, (byte)(177));
                 labelScorePlayer1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, (byte)(177));
             }
+        }
+
+        private void addIcon()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameSettingsForm));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
         }
 
         public void CleanForm()

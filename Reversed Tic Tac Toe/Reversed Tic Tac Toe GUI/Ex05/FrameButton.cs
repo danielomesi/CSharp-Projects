@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ex05
+namespace ReverseTicTacToe
 {
     public class FrameButton : Button
     {

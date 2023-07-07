@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Ex05
+namespace ReverseTicTacToe
 {
     public class GameSettingsForm : Form
     {
@@ -41,6 +41,7 @@ namespace Ex05
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameSettingsForm));
             this.labelPlayers = new System.Windows.Forms.Label();
             this.labelPlayer1 = new System.Windows.Forms.Label();
             this.textBoxPlayer2 = new System.Windows.Forms.TextBox();
@@ -119,7 +120,7 @@ namespace Ex05
             0,
             0});
             this.numericUpDownRows.Minimum = new decimal(new int[] {
-            4,
+            3,
             0,
             0,
             0});
@@ -127,7 +128,7 @@ namespace Ex05
             this.numericUpDownRows.Size = new System.Drawing.Size(44, 23);
             this.numericUpDownRows.TabIndex = 8;
             this.numericUpDownRows.Value = new decimal(new int[] {
-            4,
+            3,
             0,
             0,
             0});
@@ -163,7 +164,7 @@ namespace Ex05
             0,
             0});
             this.numericUpDownCols.Minimum = new decimal(new int[] {
-            4,
+            3,
             0,
             0,
             0});
@@ -171,7 +172,7 @@ namespace Ex05
             this.numericUpDownCols.Size = new System.Drawing.Size(43, 23);
             this.numericUpDownCols.TabIndex = 11;
             this.numericUpDownCols.Value = new decimal(new int[] {
-            4,
+            3,
             0,
             0,
             0});
@@ -215,6 +216,7 @@ namespace Ex05
             this.Controls.Add(this.labelPlayers);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GameSettingsForm";

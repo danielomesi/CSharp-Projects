@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ex05
+namespace ReverseTicTacToe
 {
     public struct SequenceCounter
     {

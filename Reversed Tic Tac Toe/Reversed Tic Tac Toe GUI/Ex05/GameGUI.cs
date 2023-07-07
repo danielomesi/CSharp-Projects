@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 
-namespace Ex05
+namespace ReverseTicTacToe
 {
     public class GameGUI
     {
