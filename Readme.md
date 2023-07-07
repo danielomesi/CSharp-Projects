@@ -1,4 +1,3 @@
 # Hello!
 
-In this repository I will be posting some of my code work, mostly small programs and stuff I do on my free time, such as LeetCode.
-Enjoy :)
+Here you can see some of the work by me and Roy Toledano (https://github.com/RoyToledano) throughout the course "Object Oriented Programming in .NET Environment and C#".
