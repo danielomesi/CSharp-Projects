@@ -81,4 +81,4 @@ Printing vecile's details
 
 Status update
 
-![image](readme-images/print-vechile-info.png)
+![image](readme-images/status-update.png)
